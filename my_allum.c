@@ -5,11 +5,11 @@
 ** Login   <wroble_h@epitech.net>
 ** 
 ** Started on  Mon Feb  9 11:30:09 2015 Hubert Wroblewski
-** Last update Tue Feb 17 14:33:44 2015 Hubert Wroblewski
+** Last update Thu Feb 19 13:31:05 2015 Hubert Wroblewski
 */
 
 #include <stdlib.h>
-#include "include/my.h"
+#include "my.h"
 
 int	cnt(int *pipe, int line)
 {
@@ -52,7 +52,7 @@ void	win_lose(int res)
 
 int		my_allum(int line)
 {
-  t_list	l;
+  t_allum	l;
 
   if ((l.pipe = malloc(line * sizeof(int))) == NULL)
     return (-1);

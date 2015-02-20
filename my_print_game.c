@@ -5,10 +5,10 @@
 ** Login   <wroble_h@epitech.net>
 ** 
 ** Started on  Mon Feb  9 13:43:19 2015 Hubert Wroblewski
-** Last update Tue Feb 17 14:31:10 2015 Hubert Wroblewski
+** Last update Thu Feb 19 13:40:13 2015 Hubert Wroblewski
 */
 
-#include "include/my.h"
+#include "my.h"
 
 void	my_print_pipe(int nbpipe)
 {

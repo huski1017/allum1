@@ -5,10 +5,10 @@
 ** Login   <wroble_h@epitech.net>
 ** 
 ** Started on  Fri Oct  3 14:36:23 2014 Hubert Wroblewski
-** Last update Mon Feb  9 16:53:45 2015 Hubert Wroblewski
+** Last update Thu Feb 19 13:39:30 2015 Hubert Wroblewski
 */
 
-#include "include/my.h"
+#include "my.h"
 
 int	my_getnbr(char *str)
 {

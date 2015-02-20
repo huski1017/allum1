@@ -5,10 +5,10 @@
 ** Login   <wroble_h@epitech.net>
 ** 
 ** Started on  Tue Feb 10 11:15:10 2015 Hubert Wroblewski
-** Last update Wed Feb 11 11:41:26 2015 Hubert Wroblewski
+** Last update Thu Feb 19 13:40:01 2015 Hubert Wroblewski
 */
 
-#include "include/my.h"
+#include "my.h"
 
 int	*my_ia(int *pipe, int rest, int l)
 {
@@ -21,7 +21,7 @@ int	*my_ia(int *pipe, int rest, int l)
       i = rest % 4;
       if (i == 0)
 	i = 2;
-      if (i == rest && rest > 1 || (rest - i) == 4)
+      if ((i == rest && rest > 1) || (rest - i) == 4)
 	i--;
       while (nb < l)
 	{

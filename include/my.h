@@ -5,13 +5,13 @@
 ** Login   <wroble_h@epitech.net>
 ** 
 ** Started on  Mon Feb  9 16:44:59 2015 Hubert Wroblewski
-** Last update Tue Feb 17 14:30:41 2015 Hubert Wroblewski
+** Last update Fri Feb 20 14:43:14 2015 Hubert Wroblewski
 */
 
 #ifndef MY_H_
 # define MY_H_
 
-typedef struct	s_list
+typedef struct	s_allum
 {
   int	*pipe;
   int	rest;
@@ -20,7 +20,7 @@ typedef struct	s_list
   int	rast;
   int	line;
   int	stop;
-}		t_list;
+}		t_allum;
 
 int	main();
 int	ask();
@@ -39,5 +39,6 @@ int	read_pone_pipe(int, int, int *);
 int	*less_pipe(int *, int, int);
 int	*my_ia(int *, int, int);
 void	win_lose(int);
+int	nbr_line();
 
 #endif /*!MY_H_ */

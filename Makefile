@@ -5,7 +5,7 @@
 ## Login   <wroble_h@epitech.net>
 ## 
 ## Started on  Mon Feb  9 09:51:45 2015 Hubert Wroblewski
-## Last update Tue Feb 17 14:31:41 2015 Hubert Wroblewski
+## Last update Thu Feb 19 13:32:59 2015 Hubert Wroblewski
 ##
 
 CC	= gcc
@@ -14,9 +14,11 @@ RM	= rm -f
 
 NAME	= allum1
 
-##CFLAGS	= -W -Wall -Werror -Wextra 
+CFLAGS	+= -W -Wall -Wextra -Werror
 
-CFLAGS	= -g3
+CFLAGS	+= -g3
+
+CFLAGS	+= -I include/
 
 SRCS	= main.c \
 	nbr_line.c \
@@ -34,7 +36,7 @@ OBJS	= $(SRCS:.c=.o)
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	$(CC) $(OBJS) -o $(NAME)
+	$(CC) $(OBJS) -o $(NAME) $(CFLAGS)
 
 clean:
 	$(RM) $(OBJS)

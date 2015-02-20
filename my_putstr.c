@@ -5,12 +5,12 @@
 ** Login   <wroble_h@epitech.net>
 ** 
 ** Started on  Fri Jan 23 12:00:49 2015 Hubert Wroblewski
-** Last update Tue Feb 17 14:29:00 2015 Hubert Wroblewski
+** Last update Thu Feb 19 13:40:26 2015 Hubert Wroblewski
 */
 
 #include <stdlib.h>
 #include <unistd.h>
-#include "include/my.h"
+#include "my.h"
 
 int	my_strlen(char *str)
 {

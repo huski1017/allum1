@@ -5,11 +5,12 @@
 ** Login   <wroble_h@epitech.net>
 ** 
 ** Started on  Mon Feb  9 16:23:32 2015 Hubert Wroblewski
-** Last update Mon Feb  9 16:54:42 2015 Hubert Wroblewski
+** Last update Thu Feb 19 13:40:37 2015 Hubert Wroblewski
 */
 
+#include <unistd.h>
 #include <stdlib.h>
-#include "include/my.h"
+#include "my.h"
 
 char	*my_read()
 {

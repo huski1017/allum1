@@ -5,11 +5,11 @@
 ** Login   <wroble_h@epitech.net>
 ** 
 ** Started on  Mon Feb  9 10:03:37 2015 Hubert Wroblewski
-** Last update Tue Feb 17 15:23:53 2015 Hubert Wroblewski
+** Last update Thu Feb 19 13:39:08 2015 Hubert Wroblewski
 */
 
 #include <stdlib.h>
-#include "include/my.h"
+#include "my.h"
 
 int	ask()
 {
